@@ -1,0 +1,1 @@
+mistral:7b — FAILED (non-execution + confusion). Never invoked real tool calls across multiple turns; claimed to have 'no instructions yet' after already giving a full plan; produced a broken tool-call template with unfilled placeholders; falsely claimed setting a directory path as file content 'set the working directory.' Confirmed zero real file changes
