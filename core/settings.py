@@ -116,4 +116,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest. frameworks.permissions.AllowAny",
+    ],
+}
+
 STATIC_URL = "static/"
